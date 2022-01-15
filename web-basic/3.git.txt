@@ -23,8 +23,14 @@ git add . (스테이징 환경에 모든 소스코드를 올린다.)
 git commit -m "first commit" (커밋 = 스테이징에 있는 코드들을 커밋명을 붙여서 푸시 전단계로 올린다.)
 git push -u origin master (업로드)
 4. 최초의 경우, git 유저 정보 터미널에 입력
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+
+5. 반복할 것은 이것 뿐!
+    소스를 업데이트한다.
+    git add . (스테이징 환경에 모든 소스코드를 올린다.)
+    git commit -m "first commit" (커밋 = 스테이징에 있는 코드들을 커밋명을 붙여서 푸시 전단계로 올린다.)
+    git push -u origin master (업로드)
 
 - 관련 용어들
     - Repository : 깃 저장소
