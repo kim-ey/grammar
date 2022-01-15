@@ -1,0 +1,14 @@
+Case Rule
+Case : 네이밍 컨벤션(관습)
+
+lower camel case : class, id
+ex) className
+
+upper camel case (=pascal case) : Java에서의 class
+ex) ClassName
+
+kebab case : url명, file명, .html, .css, .js 등등에 사용. 가끔 class에서. git repository 이름
+ex) inner-page.html, class-name
+
+snake case : commit명
+ex) init_commit

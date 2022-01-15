@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+* {
+    font-family: 'Bakbak One', cursive;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.bbsTitle {
+    text-decoration: none;
+    color: gray;
+}

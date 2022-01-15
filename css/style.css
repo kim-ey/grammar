@@ -1,0 +1,88 @@
+/* Comment */
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+/* Selector : Tag < Class < Id */
+a {
+    font-size: 20px;
+    color:hotpink;
+}
+
+div {
+    font-size: 50px;
+    color: black;
+}
+
+.id {
+    color: blue;
+}
+
+.pw {
+    color: red;
+}
+
+#kim {
+    font-family: 'Bakbak One', cursive;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.px-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.py-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.m-1 {
+    margin: 10px;
+}
+
+.mx-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.my-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.border {
+    border: 1px solid gray;
+    background: pink;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+div > div:first-child {
+    flex: 3;
+    border: 1px solid white;
+    background: red;
+
+}
+
+div > div {
+    flex: 1;
+    border: 1px solid white;
+    background: pink;
+}

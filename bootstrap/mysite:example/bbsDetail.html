@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <header>
+        <!-- ### Navbar Start ### -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Kim</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="bbs.html">BBS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      User
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="login.html">Login</a></li>
+                      <li><a class="dropdown-item" href="#">User</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Join</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">OO, Welcome!</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <!-- ### Navbar End ### -->
+    </header>
+
+
+    <section class="bbsDetail">
+      <div class="container">
+
+        <div class="row">          
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="bbs.html">BBS</a></li>
+              <li class="breadcrumb-item active" aria-current="page">#3 BBS View</li>
+            </ol>
+          </nav>
+        </div>
+
+
+        <!-- 1. Image , 2. Title (h1), 3. Text (Blockquotes), 4. Button (right-alined)-->
+        <div class="row">
+          <img src="img/bg-1.jpeg" class="img-fluid" alt="...">
+        </div>
+        <div class="row">
+          <h1>Title</h1>
+          <p>21.1.1 / Mark / 15 Views</p>
+        </div>
+        <div class="row">
+          <blockquote class="blockquote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odio unde repellat esse dolor enim earum ipsum natus rem, ducimus expedita porro quaerat ad nostrum repellendus possimus atque vero consequatur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti illo sed minima, a dolore cumque amet fugit aut, expedita deserunt delectus officiis magnam excepturi maiores impedit earum optio debitis.</p>
+          </blockquote>
+        </div>
+        <div class="row">
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-secondary me-md-2" type="button">mod</button>
+            <button class="btn btn-secondary me-md-2" type="button">delete</button>
+            <button class="btn btn-info me-md-2" type="button">back</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+    <footer>        
+        <!-- ### Footer Start ### -->
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ad dolores odit omnis quo temporibus deserunt iure veritatis, nisi sequi itaque ex provident, similique inventore? Dolorum itaque ipsa est officia!
+                </p>
+                <p class="card-text">
+                    Copyright &copy; <script>document.write(new Date().getFullYear());</script> Kim
+                </p>
+            </div>
+        </div>
+        <!-- ### Footer End ### -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+Stage 1 
+1. index.html
+2. css, js link = > bootstrap5
+3. header, footer
+4. navbar = > home, bbs, blog, contact, login
+
+Q1. "target" => "problem"
+bbs.html:17
+
+Q1. class: container
+doc url: http://bootstarp.com/....

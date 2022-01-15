@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="p-5">Column</h1>
+        </div>
+        
+        <!-- 1. Column 
+            class name : col-xs-1 ~ col-xs-12
+            size : xs, sm, md, lg, xl        
+        -->
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-4" style="background-color: red;">A</div>
+            <div class="col-lg-2 col-md-3 col-sm-4" style="background-color: rgb(255, 187, 0);">B</div>
+            <div class="col-lg-2 col-md-3 col-sm-4" style="background-color: rgb(166, 255, 0);">C</div>
+            <div class="col-lg-2 col-md-3 col-sm-4" style="background-color: rgb(0, 255, 234);">D</div>
+            <div class="col-lg-2 col-md-3 col-sm-4" style="background-color: rgb(0, 81, 255);">E</div>
+        </div>
+
+
+        <!-- 2. Padding, Margin 
+            class name : p-1 ~ p-5, m-1 ~ m-5 (rem)
+            location : p, pl, pr, pt, pb, px, py-5
+            margin location : m, ml, mr, mt, mb, mx, my-5
+        -->
+        <div class="row">
+            <div class="p-1 m-1">padding 1 + margin 1</div>
+            <div class="p-2 m-2">padding 2 + margin 2</div>
+            <div class="p-3 m-3">padding 3 + margin 3</div>
+            <div class="p-4 m-4">padding 4 + margin 4</div>
+            <div class="p-5 m-5">padding 5 + margin 5</div>
+        </div>
+
+
+        <!-- 3. Width, Height 25 50 75 100 -->
+        <img src="album.jpg" alt="" class="h-25">
+        <img src="album.jpg" alt="" class="w-75">    
+
+        <!-- 4. Display Type 
+            class name : d-inline, d-block, d-inline-block, d-flex
+        -->
+        <h1 class="p-5">D-inline</h1>
+        <div class="d-inline">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+        </div>
+
+        <h1 class="p-5">D-block</h1>
+        <div class="d-block">
+            <img src="album.jpg" alt="" class="h-25 d-block">
+            <img src="album.jpg" alt="" class="h-25 d-block">
+            <img src="album.jpg" alt="" class="h-25 d-block">
+            <img src="album.jpg" alt="" class="h-25 d-block">
+        </div>
+
+        <h1 class="p-5">D-none</h1>
+        <div class="d-none">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+        </div>
+
+        <h1 class="p-5">D-flex</h1>
+        <div class="d-flex justify-content-start">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+        </div>
+        <div class="d-flex justify-content-end">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+        </div>
+        <div class="d-flex justify-content-center">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+        </div>
+        <div class="d-flex justify-content-between">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+        </div>
+        <div class="d-flex justify-content-around">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+            <img src="album.jpg" alt="" class="h-25">
+        </div>
+
+        <!-- 5. button, alert... = primary, secondary, success, danger, warning, info, light, dark -->
+        <h1 class="p-5">Components</h1>
+        <div class="alert alert-warning">
+            A simple warning alert-check
+            <button class="btn btn-warning">Button</button>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
