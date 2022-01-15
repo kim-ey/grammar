@@ -21,7 +21,10 @@ git init (소스 안에 git 명령어를 사용할 수 있게 설치)
 git remote add origin https://github.com/kim-ey/grammar.git (소스와 깃 연동)
 git add . (스테이징 환경에 모든 소스코드를 올린다.)
 git commit -m "first commit" (커밋 = 스테이징에 있는 코드들을 커밋명을 붙여서 푸시 전단계로 올린다.)
-git push origin master (업로드)
+git push -u origin master (업로드)
+4. 최초의 경우, git 유저 정보 터미널에 입력
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
 
 - 관련 용어들
     - Repository : 깃 저장소
