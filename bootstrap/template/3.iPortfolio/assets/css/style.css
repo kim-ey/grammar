@@ -410,6 +410,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
+  margin-left: 40px;
   border-left: 2px solid #1f5297;
   position: relative;
 }
@@ -582,7 +583,10 @@ section {
   margin-top: 10px;
 }
 .portfolio-details .portfolio-description {
-  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;

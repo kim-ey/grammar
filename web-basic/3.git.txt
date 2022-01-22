@@ -29,13 +29,10 @@ git push -u origin master (업로드)
     소스를 업데이트한다.
     git add . (스테이징 환경에 모든 소스코드를 올린다.)
     git commit -m "first commit" (커밋 = 스테이징에 있는 코드들을 커밋명을 붙여서 푸시 전단계로 올린다.)
-    git push -u origin master (업로드)
+    git push origin master (업로드 : 푸시)
+    git pull origin master (다운로드 : 풀)
 
 - 관련 용어들
     - Repository : 깃 저장소
-    - Staging Area : 저장소에 커밋하기 전에 커밋을 준비하는 위치.
+    - Staging : 저장소에 커밋하기 전에 커밋을 준비하는 위치.
     - Commit : 현재 변경된 작업 상태를 점검을 마치면 확정하고 저장소에 저장하는 작업.
-
-- 나중에 배울 것들!
-    - Branch : 가지 또는 분기점을 의미하며, 작업을 할때에 현재 상태를 복사하여 Branch에서 작업을 한 후에 완전하다 싶을때 Merge를 하여 작업을 한다.
-    - Merge : 다른 Branch의 내용을 현재 Branch로 가져와 합치는 작업을 의미한다.
