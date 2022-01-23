@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - Delicious Bootstrap Template</title>
+  <title>Delicious Bootstrap Template - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -38,15 +38,15 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center fixed-top ">
+  <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent" style="background-color: #35322d;">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
-      <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
+      <i class="bi bi-phone d-flex align-items-center"><span><a href="tel:070-1543-3733">+81 70 1543 3733</a></span></i>
       <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Mon-Sat: 11:00 AM - 23:00 PM</span></i>
     </div>
   </section>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center ">
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent" style="background-color: #35322d;">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <div class="logo me-auto">
@@ -57,28 +57,16 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
-          <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
-          <li><a class="nav-link scrollto" href="#events">Events</a></li>
-          <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          
+          <li class="dropdown"><a href="#"><span>introduction</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+              <li><a class="nav-link scrollto" href="about.html">About</a></li>
+              <li><a class="nav-link scrollto" href="menu.html">Menu</a></li>
+              <li><a class="nav-link scrollto" href="specials.html">Specials</a></li>
+              <li><a class="nav-link scrollto" href="events.html">Events</a></li>
+              <li><a class="nav-link scrollto" href="chefs.html">Chefs</a></li>
+              <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -108,14 +96,49 @@
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-    <section class="inner-page">
-      <div class="container">
-        <p>
-          Example inner page template
-        </p>
-      </div>
-    </section>
 
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="row" style="padding-left: 50px; padding-right: 50px;">
+
+          <div class="col-lg-4 align-items-stretch video-box" style='background-image: url("assets/img/about.jpg");'>
+            <a href="https://www.youtube.com/watch?v=vYHgKx33RQI" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-8 d-flex flex-column justify-content-center align-items-stretch">
+
+            <div class="content">
+              <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.
+              </p>
+              <ul>
+                <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              </ul>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -131,7 +154,7 @@
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Delicious</span></strong>. All Rights Reserved
+        &nbsp;&copy; Copyright <strong><span>Delicious</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
