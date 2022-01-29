@@ -20,11 +20,12 @@
 git init (소스 안에 git 명령어를 사용할 수 있게 설치)
 git remote add origin https://github.com/kim-ey/grammar.git (소스와 깃 연동)
 
-
+<VSCODE에서 진행하는 부분이라 안해도 됨>
 git add . (스테이징에 모든 소스코드를 올린다. = 업로드할 파일들을 선택한다.)
 git commit -m "first commit" (커밋 = 스테이징에 있는 코드들을 커밋명을 붙여서 푸시 전단계로 올린다.)
 git push -u origin master (업로드) 
 
+<처음에 하는 부분이라 다음엔 안해도 됨>
 4. 최초의 경우, git 유저 정보 터미널에 입력 
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
@@ -39,3 +40,40 @@ git push -u origin master (업로드)
     - Repository : 깃 저장소
     - Staging : 저장소에 커밋하기 전에 커밋을 준비하는 위치.
     - Commit : 현재 변경된 작업 상태를 점검을 마치면 확정하고 저장소에 저장하는 작업.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<깃허브에서 배포>
+내가 푸시한 레포지토리 안에서 세팅이라는 탭을 들어간다.
+
+깃허브 페이지스라고 하는 항목까지 휠다운한다.
+
+check it out이라는 링크를 누른다..
+
+소스에서 브랜치를 master로 한 다음 save를 하고.
+
+사이트 주소를 받는다.
+
+https://kim-ey.github.io/delicious/
+
