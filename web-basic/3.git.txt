@@ -15,14 +15,17 @@
 
 - 코드와 깃을 연동
 1. github.com에 들어간다. -> sign in -> new repo -> git 주소를 복사 https://github.com/kim-ey/i-portfolio.git
-2. 터미널에서 ls, cd grammar 명령어등을 사용해서 해당 소스코드 폴더로 이
+2. 터미널에서 ls, cd grammar 명령어등을 사용해서 해당 소스코드 폴더로 이동
 3. 소스를 깃 레포지토리에 업로드
 git init (소스 안에 git 명령어를 사용할 수 있게 설치)
 git remote add origin https://github.com/kim-ey/grammar.git (소스와 깃 연동)
-git add . (스테이징 환경에 모든 소스코드를 올린다.)
+
+
+git add . (스테이징에 모든 소스코드를 올린다. = 업로드할 파일들을 선택한다.)
 git commit -m "first commit" (커밋 = 스테이징에 있는 코드들을 커밋명을 붙여서 푸시 전단계로 올린다.)
-git push -u origin master (업로드)
-4. 최초의 경우, git 유저 정보 터미널에 입력
+git push -u origin master (업로드) 
+
+4. 최초의 경우, git 유저 정보 터미널에 입력 
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
 5. 반복할 것은 이것 뿐! (vscode에서 3번째 깃 익스플로러 에서 작업 가능!)
