@@ -18,7 +18,7 @@ console.log(b)
 // console.log(a*b)
 // console.log(a/b)
 
-// 문자열 변수 
+// 문자열 변수
 a = '안녕하세요'
 b = 'JS!'
 console.log(a, b)
@@ -55,4 +55,20 @@ for (let i = 0; i < array.length; i = i + 1) {
     console.log('i번째의 배열의 값:', array[i])
 }
 
-// 객체 해야함.
+// 객체 (object) : 키와 밸류
+let object = { no: 1, id: 'happy1212', pw: 'asdfe3f' }
+console.log('object.id:', object.id)
+console.log('object.pw:', object.pw)
+
+// JSON 형태의 데이터 타입
+let client1 = { id: 'user1', pw: '1', name: 'kim' }
+let client2 = { id: 'user2', pw: '2', name: 'park' }
+let client3 = { id: 'user3', pw: '3', name: 'lee' }
+let client4 = { id: 'user4', pw: '4', name: 'yang' }
+let clientArray = [client1, client2, client3, client4]
+
+console.log('clientArray JSON:', clientArray)
+for (let i = 0; i < clientArray.length; i = i + 1) {
+    console.log('i번째의 배열의 값:', clientArray[i].name)
+}
+

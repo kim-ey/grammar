@@ -71,7 +71,7 @@
   <section id="history" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Apple</h1>
-      <p>I'm <span class="typed" data-typed-items="TOM, JOM, MOM, DOM"></span></p>
+      <p><span id="clock"></span> &nbsp;<span class="typed" data-typed-items="TOM, JOM, MOM, DOM"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -396,12 +396,12 @@
             <form action="#" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="enter your name" required>
+                  <label for="name">Your ID</label>
+                  <input type="text" name="id" class="form-control" id="newId" onkeypress="chkCharCode(event)" placeholder="enter new ID" required>
                 </div>
                 <div class="form-group">
                   <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="enter your email" required>
+                  <input type="password" class="form-control" name="pw" id="pw" placeholder="enter your password" required>
                 </div>
               </div>
               <div class="form-group">
@@ -459,6 +459,8 @@
 
   <!-- JS Study -->
   <script src="test.js"></script>
+  <script src="assets/js/clock.js"></script>
+  <script src="assets/js/form.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
