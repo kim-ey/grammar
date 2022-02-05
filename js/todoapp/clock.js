@@ -8,6 +8,15 @@ function getTime() {
     const minutes = date.getMinutes()
     const seconds = date.getSeconds()
 
+
+
+
+
+
+
+
+
+    
     // clockTitle.innerText = `${hours}:${minutes}:${seconds}`
 
     if (hours < 10) {

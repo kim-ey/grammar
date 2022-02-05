@@ -10,7 +10,8 @@ function getTime() {
     // clockTitle.innerText = `${hours}:${minutes}:${seconds}`
 
     if (hours < 10) {
-        clockTitle.innerText = `0${hours}`
+        clockTitle.innerText = 
+        `0${hours}`
     }
     else {
         clockTitle.innerText = hours

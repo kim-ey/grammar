@@ -11,8 +11,29 @@
 }
 
 .d-flex {
-    display: flex
+    display: flex    
 }
+
+
+div > .flex1 {
+    flex: 1;
+    background-color: hotpink;
+}
+
+div > .flex2 {
+    flex: 2;
+    background-color: indigo;
+
+}
+
+div > .flex3 {
+    flex: 3;
+    background-color: khaki;
+}
+
+
+
+
 
 .d-none {
     display: none

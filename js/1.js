@@ -13,10 +13,14 @@ let a = 1
 let b = 2
 console.log(a)
 console.log(b)
-// console.log(a+b)
-// console.log(a-b)
-// console.log(a*b)
-// console.log(a/b)
+
+// 연산자
+console.log('더하기', a+b)
+console.log('빼기', a-b)
+console.log('곱하기', a*b)
+console.log('나누기', a/b)
+console.log('나머지를 구하는 연산자', a%2)
+console.log('제곱을 구하는 연산자', a**2)
 
 // 문자열 변수
 a = '안녕하세요'
@@ -57,6 +61,11 @@ for (let i = 0; i < array.length; i = i + 1) {
 
 // 객체 (object) : 키와 밸류
 let object = { no: 1, id: 'happy1212', pw: 'asdfe3f' }
+
+
+
+
+
 console.log('object.id:', object.id)
 console.log('object.pw:', object.pw)
 
